@@ -77,7 +77,7 @@ jobs:
           GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD: android
         run: |
           mkdir -p build
-          godot --headless --editor --path . \
+                    godot --headless --verbose --editor --path . \
             --export-debug "Android" \
             build/IndianCrimeCity3D.apk
 
